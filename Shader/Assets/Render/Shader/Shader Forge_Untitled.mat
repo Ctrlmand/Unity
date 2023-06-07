@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Forge_Terrible_Head
+  m_Name: Shader Forge_Untitled
   m_Shader: {fileID: 4800000, guid: 61fe13d2a2891da4bb046b540b2dc35d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,7 +21,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _High_Light_Fac: 1
     m_Colors:
     - _Color: {r: 0.078431346, g: 0.39215687, b: 0.7843137, a: 1}
   m_BuildTextureStacks: []
