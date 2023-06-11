@@ -41,7 +41,7 @@
      <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <None Include="Assets\Render\Shader\1\HalfTone.shader" />
      <None Include="Assets\Render\Shader\2\Shader Forge_Slider_Lambert.shader" />
-     <None Include="Assets\Render\Shader\Untitled.shader" />
+     <None Include="Assets\Render\Shader\Phong.shader" />
      <None Include="Assets\Render\Shader\1\TexLine.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
