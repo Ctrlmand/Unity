@@ -41,12 +41,13 @@
      <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <None Include="Assets\Render\Shader\1\HalfTone.shader" />
      <None Include="Assets\Render\Shader\2\Shader Forge_Slider_Lambert.shader" />
-     <None Include="Assets\Render\Shader\Phong.shader" />
+     <None Include="Assets\Render\Shader\4\Phong.shader" />
      <None Include="Assets\Render\Shader\1\TexLine.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
      <None Include="Assets\Render\Shader\2\Code_Lambert.shader" />
      <None Include="Assets\Shader Forge\TesterManual.txt" />
+     <None Include="Assets\Render\Shader\4\Old_Shool.shader" />
      <None Include="Assets\Shader Forge\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
@@ -752,6 +753,24 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
