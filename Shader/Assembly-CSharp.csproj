@@ -39,12 +39,14 @@
      <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
      <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
      <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
+     <None Include="Assets\Render\Shader\4\Code_BlinnPhong.shader" />
      <None Include="Assets\Render\Shader\1\HalfTone.shader" />
      <None Include="Assets\Render\Shader\2\Shader Forge_Slider_Lambert.shader" />
      <None Include="Assets\Render\Shader\4\Phong.shader" />
      <None Include="Assets\Render\Shader\1\TexLine.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
      <None Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
+     <None Include="Assets\Render\Shader\4\Code_Phong.shader" />
      <None Include="Assets\Render\Shader\2\Code_Lambert.shader" />
      <None Include="Assets\Shader Forge\TesterManual.txt" />
      <None Include="Assets\Render\Shader\4\Old_Shool.shader" />
@@ -691,9 +693,6 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -705,9 +704,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -721,8 +717,14 @@
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
@@ -739,14 +741,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -754,23 +753,26 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
         <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>D:\sjw16\Desktop\GitHub\Unity\Shader\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
